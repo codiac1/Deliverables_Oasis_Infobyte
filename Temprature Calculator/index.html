@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Temperature Conversion</title>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Temperature Converter</h1>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <label for="celsius">Calsius</label>
+        <input type="number" id="celsius" oninput="celToFahr()" />
+      </div>
+      <div class="container">
+        <label for="fahrenheight">Fahrenhheight</label>
+        <input type="number" id="fahrenheight" oninput="fahrTocel()" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
